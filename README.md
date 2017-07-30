@@ -46,7 +46,7 @@ $(document).ready(function(){
 
 ## Authors
 
-* **Ross ** - *initial work* - [Hipady](https://github.com/Hipady)
+* **Ross** - *initial work* - [Hipady](https://github.com/Hipady)
 
 ## License
 

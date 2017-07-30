@@ -16,28 +16,25 @@ Call the [plugin](https://learn.jquery.com/plugins/) function and your player sh
 
 ```javascript
 $(document).ready(function(){
-	$('#player').videre({
-		video: {
-			quality: [
-				{
-                	// label the quality selector
-					label: '720p',
-                    // provide a source to the video media
-					src: 'https://vjs.zencdn.net/v/oceans.mp4?HD'
-				},
-				{
-                	// label the quality selector
-					label: '240p',
-                    // provide a source to the video media
-					src: 'https://vjs.zencdn.net/v/oceans.mp4?SD'
-				}
-			],
-            // video title
-			title: 'Title'
-		},
-        // Available diemnsions are: 2256, 1920, 1280, 1024, 768, 512
-		dimensions: 1280
-	});
+   $('#player').videre({
+      video: {
+         quality: [{
+            // label the quality selector
+            label: '720p',
+            // provide a source to the video media
+            src: 'https://vjs.zencdn.net/v/oceans.mp4?HD'
+         },{
+            // label the quality selector
+            label: '720p',
+            // provide a source to the video media
+            src: 'https://vjs.zencdn.net/v/oceans.mp4?HD'
+         }],
+         // video title
+         title: 'Title'
+      },
+      // Available diemnsions are: 2256, 1920, 1280, 1024, 768, 512
+      dimensions: 1280
+   });
 });
 ```
 
@@ -45,13 +42,10 @@ $(document).ready(function(){
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Jquery UI](https://jqueryui.com/) - Used to generate volume slider
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
 * **Ross ** - *initial work* - [Hipady](https://github.com/Hipady)
 
 ## License

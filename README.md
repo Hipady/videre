@@ -2,6 +2,8 @@
 
 The HTML5 video player
 
+![alt text](https://i.gyazo.com/21cf9dfb3e0d5347e2a1b71ca44793fe.png)
+
 ### Usage
 
 Place a `div` in your `html` with the appropiate `id`

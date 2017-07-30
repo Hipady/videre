@@ -44,7 +44,7 @@ if (typeof Object.create !== "function") {
             base.options = $.extend({}, $.fn.videre.options, options);
 
 			if ($.inArray(base.options.dimensions, dimensions[base.options.dimensions]) === 0) {
-				$('html head').append('<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>');
+				$('html head').append('</script><script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>');
 				base.wrapPlayer(el);
 			} else {
 				alert("Dimension isn't included in Videre");
